@@ -1,15 +1,15 @@
 Version 4
 SymbolType BLOCK
-LINE Normal 48 0 24 0
-LINE Normal -32 0 -8 0
-RECTANGLE Normal 24 5 -8 -5
-WINDOW 0 5 -14 Left 0
-WINDOW 39 11 18 Center 0
+LINE Normal 0 48 0 24
+LINE Normal 0 -32 0 -8
+RECTANGLE Normal -5 24 5 -8
+WINDOW 0 8 6 Left 0
+WINDOW 39 -10 6 Right 0
 SYMATTR SpiceLine R=R
 SYMATTR SpiceLine2 C=1p, L=1n
-PIN -32 0 NONE 8
+PIN 0 -32 NONE 8
 PINATTR PinName A
 PINATTR SpiceOrder 1
-PIN 48 0 NONE 8
+PIN 0 48 NONE 8
 PINATTR PinName B
 PINATTR SpiceOrder 2
