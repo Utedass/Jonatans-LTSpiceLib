@@ -1,0 +1,41 @@
+Version 4
+SymbolType CELL
+LINE Normal -48 32 -32 32
+LINE Normal -32 32 -24 36
+LINE Normal -48 80 -32 80
+LINE Normal -32 80 -24 76
+LINE Normal 0 96 0 72
+LINE Normal 0 16 0 36
+LINE Normal 0 36 19 70
+LINE Normal -48 72 -40 72
+LINE Normal -44 76 -44 68
+LINE Normal -48 40 -40 40
+LINE Normal 64 96 64 72
+LINE Normal 64 16 64 36
+LINE Normal 64 36 83 70
+CIRCLE Normal -32 24 101 88
+CIRCLE Normal -4 76 4 68
+CIRCLE Normal 60 76 68 68
+WINDOW 0 96 32 Left 2
+WINDOW 3 96 80 Left 2
+SYMATTR Value DPST
+SYMATTR Prefix X
+SYMATTR Description Dual pole single throw switch
+PIN 64 16 NONE 0
+PINATTR PinName C1
+PINATTR SpiceOrder 1
+PIN 64 96 NONE 0
+PINATTR PinName NO1
+PINATTR SpiceOrder 2
+PIN 0 16 NONE 0
+PINATTR PinName C2
+PINATTR SpiceOrder 3
+PIN 0 96 NONE 0
+PINATTR PinName NO2
+PINATTR SpiceOrder 4
+PIN -48 80 NONE 0
+PINATTR PinName NC+
+PINATTR SpiceOrder 5
+PIN -48 32 NONE 0
+PINATTR PinName NC-
+PINATTR SpiceOrder 6
